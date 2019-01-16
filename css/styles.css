@@ -9,9 +9,46 @@
 /* Global styles */
 body {
     background: beige;
+    font-family: 'Fenix', serif;
+    font-size: 20px;
+}
+h1, h2 {
+    font-family: 'Diplomata', cursive;
+}
+h1{
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+a {
+    color: #1b2021;
+}
+a:hover {
+    text-decoration: none;
 }
 /* Header and Footer */
+header, footer {
+    background: #51513d;
+    color: #A6a867;
+}
+header h1, header h2 {
+    color: #e3dcc2;
+}
 
 /* Work Experience */
+.work {
+    background: #E3DCC2;
+}
 
 /* Education */
+.education {
+    background: #E3DC95;
+}
+
+.profile-img {
+  /*width: 300px;*/
+  border-radius: 50%;
+  /*float: left;*/
+  /*margin-right: 30px;*/
+}

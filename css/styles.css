@@ -43,7 +43,7 @@ a:hover {
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow: auto;
 }
 .col-narrow {
@@ -58,12 +58,26 @@ a:hover {
 .uppercase {
     text-transform: uppercase;
 }
+
+.btn {
+    text-decoration: none;
+    background: green;
+    color: whitesmoke;
+    padding: 15px;
+    display: inline-block;
+}
+
 /* Header and Footer */
 header, footer {
     background: #51513d;
     color: #A6a867;
 }
 /* header */
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
 header h1, header h2 {
     color: #e3dcc2;
     margin: 0;
@@ -79,6 +93,24 @@ footer {
     background: white;
     padding: 10px;
     display: inline-block;
+}
+
+nav {
+    text-align: center;
+    background: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* left: 0; this option is ok left and right. it does the same as line above.
+    right: 0; */
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /* Work Experience */
@@ -108,4 +140,10 @@ p + h3 {
   border-radius: 50%;
   /* float: left; */
   /* margin-right: 30px; */
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

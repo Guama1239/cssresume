@@ -90,8 +90,9 @@ footer {
     text-align: center;
 }
 .contact-info a {
-    background: white;
+    background: none;
     padding: 10px;
+    font-size: 2em;
     display: inline-block;
 }
 
@@ -116,6 +117,11 @@ nav a {
 /* Work Experience */
 .work {
     background: #E3DCC2;
+}
+
+.work a {
+    padding: 10px;
+    font-size: 2em;
 }
 h3 ~ p {
     margin: 0;

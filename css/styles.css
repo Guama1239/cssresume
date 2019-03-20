@@ -116,7 +116,11 @@ nav a {
 
 /* Work Experience */
 .work {
-    background: #E3DCC2;
+    /* background: #E3DCC2; */
+    background: linear-gradient(rgba(227, 220, 149, 0.8),
+    rgba(227, 220, 149, 0.5)),
+    url(../pedro-lastra-157071-unsplash.jpg) no-repeat fixed;
+    background-size: cover;
 }
 
 .work a {
@@ -134,7 +138,10 @@ h3 ~ p {
 }
 /* Education */
 .education {
-    background: #E3DC95;
+     background: linear-gradient(rgba(227, 220, 149, 0.8),
+    rgba(227, 220, 149, 0.5)),
+    url(../pedro-lastra-157071-unsplash.jpg) no-repeat fixed;
+    background-size: cover;
 }
 
 p + h3 {

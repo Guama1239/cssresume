@@ -46,15 +46,7 @@ a:hover {
     padding: 60px 50px;
     overflow: auto;
 }
-.col-narrow {
-    width: 30%;
-    float: left;
-}
-.col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 20px;
-}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -116,7 +108,7 @@ nav a {
 
 /* Work Experience */
 .work {
-    /* background: #E3DCC2; */
+    /* background: #E3DCC2; this value is to be converted to rgb and then apply a  */
     background: linear-gradient(rgba(227, 220, 149, 0.8),
     rgba(227, 220, 149, 0.5)),
     url(../pedro-lastra-157071-unsplash.jpg) no-repeat fixed;
@@ -159,4 +151,27 @@ p + h3 {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+/* Media Querie */
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-img{
+        width: 200px;
+    }
 }

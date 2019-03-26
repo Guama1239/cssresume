@@ -153,6 +153,24 @@ p + h3 {
     right: 0;
 }
 
+.flash {
+    animation: 1s flash infinite;
+}
+
+@keyframes flash {
+    0% {
+        text-shadow: 0px 0px 5px #cacacc;
+    }
+
+    50% {
+        text-shadow: none;
+    }
+
+    100% {
+        text-shadow: 0px 0px 5px #cacacc;
+    }
+}
+
 /* Media Querie */
 @media (min-width: 900px) {
     .col-narrow {
